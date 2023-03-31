@@ -1,5 +1,12 @@
 # syapi-node
 
+[![npm dependents](https://badgen.net/npm/dependents/syapi-node)](https://www.npmjs.com/package/syapi-node?activeTab=dependents)
+[![install size](https://packagephobia.com/badge?p=syapi-node)](https://packagephobia.com/result?p=syapi-node)
+[![Downloads](https://badgen.net/npm/dt/syapi-node)](https://www.npmjs.com/package/syapi-node)
+[![NPM Version](https://img.shields.io/npm/v/code-example.svg)](https://www.npmjs.com/package/syapi-node)
+[![run on repl.it](https://img.shields.io/badge/Run_on_Replit-f26207?logo=replit&logoColor=white)](https://replit.com/github/tyler-github/syapi-node-example)
+------------
+
 syapi-node is a Node.js package for detecting phishing websites. It uses a combination of machine learning algorithms and blacklist checks to determine if a given URL is likely to be a phishing website.
 
 ## Installation
@@ -16,7 +23,7 @@ npm install syapi-node
 To use syapi-node, first import the Client class:
 
 ```javascript
-const Client = require('syapi-node');
+const { Client } = require('syapi-node');
 ```
 
 Then, create a new instance of the Client class:
