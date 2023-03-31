@@ -1,0 +1,18 @@
+{
+  "name": "syapi-node",
+  "version": "1.0.2",
+  "description": "Node.js package for detecting phishing websites",
+  "main": "index.js",
+  "keywords": [
+    "phishing",
+    "security",
+    "detector",
+    "syapi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/syapi-node.git"
+  },
+  "author": "Xnoid Studios",
+  "license": "MIT"
+}
